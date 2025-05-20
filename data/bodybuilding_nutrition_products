@@ -1,0 +1,8 @@
+supplier_name,product_category,product_description,product_price,shipping_price,top_flavor_rated,verified_buyer_number
+A,Protein,Whey,30.0,2.0,Chocolate,100.0
+B,L-Carnitine,Liquid,,1.5,Lemon,50.0
+,,Amino,25.0,,,
+D,Creatine,,40.0,3.0,Vanilla,200.0
+E,123.0,Bar,10.0,1.0,Strawberry,75.0
+F,Pre-Workout,Energy,35.0,2.5,Grape,120.0
+G,789,,20.0,1.8,Orange,
