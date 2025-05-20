@@ -1,7 +1,7 @@
 # clean_data.py
 import pandas as pd
 
-def clean_supplement_data(input_filepath="supplements_order_data.csv",
+def clean_supplement_data(input_filepath="bodybuilding_nutrition_products.csv",
                           output_filepath="cleaned_supplements_order_data.csv"):
     """
     Loads raw supplement order data, cleans it by handling null values,
@@ -13,7 +13,7 @@ def clean_supplement_data(input_filepath="supplements_order_data.csv",
     3. Fill other object/string columns' nulls with an empty string or 'Unknown'.
     4. Convert 'product_category' to string type (just in case).
     """
-    print(f"Attempting to load data from: {bodybuilding_nutrition_products.csv}")
+    print(f"Attempting to load data from: {input_filepath}")
     try:
         df = pd.read_csv(input_filepath)
         print(f"Raw data loaded. Shape: {df.shape}")
