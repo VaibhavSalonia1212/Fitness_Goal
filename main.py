@@ -25,9 +25,9 @@ def main():
 
     try:
         # Get user input
-        weight = float(input("Enter your weight: "))
+        weight = float(input("Enter your weight(kg/lb): "))
         unit_w = input("Enter weight unit (kg/lb): ").lower()
-        height = float(input("Enter your height: "))
+        height = float(input("Enter your height(m/inch): "))
         unit_h = input("Enter height unit (m/inch): ").lower()
 
         # Calculate BMI and get category
